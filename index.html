@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Maria del mar Serra, Tucumán Argentina">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/favicon-32x32.png" type="image/x-icon">
+    <title>Encriptador de texto - Challenge Alura</title>
+</head>
+
+<body>
+    <header class="encabezado">
+        <nav class="nav contenedor">
+            <figure class="nav__figura">
+                <img src="./img/Alura icon.svg" alt="Logo de Alura Latam" class="nav__logo">
+            </figure>
+            <h1 class="nav__titulo">Challenge Encriptador de Textos</h1>
+        </nav>
+    </header>
+    
+    <main class="principal contenedor"> 
+        <section class="principal__entrada">
+            <textarea name="texto-ingresado" cols="30" rows="10" placeholder="Ingrese el texto aquí" id="entrada__texto" class="principal__texto principal__texto--ingresado"></textarea>
+            <h6 class="principal__advertencia">&#9432; Sólo letras minúsculas y sin acentos</h6>
+            <div class="principal__botones">
+                <input type="button" value="Encriptar" onclick="encriptarTexto()" class="principal__boton principal__boton--encriptar">
+                <input type="button" value="Desencriptar" onclick="desencriptarTexto()" class="principal__boton principal__boton--desencriptar">
+            </div>
+        </section>
+
+        <section class="principal__salida">
+            <picture class="principal__salida__imagen" id="imagen__contenedor">
+                <img src="./img/imgBuscar.jpg" alt="Explorador con telescopio buscando en el horizonte" class="principal__imagen">
+                <h2 class="principal__noencontrado">Ningún mensaje fue encontrado</h2>
+                <h3 class="principal__instruccion">Ingresa el texto que deseas encriptar o desencriptar</h3>
+            </picture>
+        
+            <div class="principal__salida__texto" id="texto__contenedor" style="display: none;">
+                <textarea name="texto-final" cols="30" rows="10" placeholder="Texto encriptado/desencriptado"
+                    id="salida__texto" class="principal__texto principal__texto--salida"  readonly></textarea>
+                    <div class="principal__salida__notificacion oculto visible " id="notificacion__copiado" style="display: none;">Copiado al portapapeles</div>
+                <input type="button" value="Copiar" onclick="copiarAlPortapapeles()" class="principal__boton principal__boton--copiar">
+            </div>
+        </section>
+
+        <script>
+            var textoIngresado;
+            function encriptarTexto() {
+                textoIngresado = document.getElementById("entrada__texto").value;
+                mostrarContenedor(textoIngresado);
+                let i;
+                let letra;
+                let nuevotexto = "";
+                for (i=0; i< textoIngresado.length ;i++){
+                    letra = textoIngresado.substring(i,i+1);
+                    switch(letra){
+                        case "a":
+                            letra = "ai";
+                            break;
+                        case "e":
+                            letra = "enter";
+                            break;
+                        case "i":
+                            letra = "imes";
+                            break;
+                        case "o":
+                            letra = "ober";
+                            break;
+                        case "u":
+                            letra = "ufat";
+                            break;
+                    }
+                    nuevotexto = nuevotexto + letra; 
+                }
+                document.getElementById("salida__texto").value = nuevotexto;
+            }
+
+            function desencriptarTexto(){
+                textoIngresado = document.getElementById("entrada__texto").value;
+                mostrarContenedor(textoIngresado);
+                let i;
+                let letra;
+                let nuevotexto = "";
+                for (i=0; i< textoIngresado.length ;i++){
+                    letra = textoIngresado.substring(i,i+1);
+                    switch(letra){
+                        case "a":
+                            letra = "a";
+                            i = i + 1;
+                            break;
+                        case "e":
+                            letra = "e";
+                            i = i + 4;
+                            break;
+                        case "i":
+                            letra = "i";
+                            i = i + 3;
+                            break;
+                        case "o":
+                            letra = "o";
+                            i = i + 3;
+                            break;
+                        case "u":
+                            letra = "u";
+                            i = i + 3;
+                            break;
+                    }
+                    nuevotexto = nuevotexto + letra; 
+                }
+                document.getElementById("salida__texto").value = nuevotexto;
+            }
+
+            function mostrarContenedor(texto){
+                if (texto !== "") {
+                    document.getElementById("imagen__contenedor").style.display = "none";
+                    document.getElementById("texto__contenedor").style.display = "block";
+                } else {
+                    document.getElementById("imagen__contenedor").style.display = "block";
+                    document.getElementById("texto__contenedor").style.display = "none";
+                }
+            } 
+            
+            //notificacion de copiado con setTimeout()
+            // function notificarCopiadoVisible(){
+            //     document.getElementById("notificacion__copiado").style.display = "block";
+            // } 
+            // function notificarCopiadoOculto(){
+            //     document.getElementById("notificacion__copiado").style.display = "none";
+            // }         
+            // function copiarAlPortapapeles() {
+            // var contenido = document.getElementById('salida__texto');
+            // contenido.select();
+            // document.execCommand('copy');
+            // notificarCopiadoVisible();
+            // setTimeout(notificarCopiadoOculto, 2000);
+            // }
+
+
+            //notificacion de copiado con setInterval()
+            var intervaloNotificacion;
+            function notificarCopiadoVisible() {
+                document.getElementById("notificacion__copiado").style.display = "block";
+            }
+
+            function notificarCopiadoOculto() {
+                document.getElementById("notificacion__copiado").style.display = "none";
+                clearInterval(intervaloNotificacion);
+            }
+
+            function copiarAlPortapapeles() {
+                var contenido = document.getElementById('salida__texto');
+                contenido.select();
+                document.execCommand('copy');
+                notificarCopiadoVisible();
+                intervaloNotificacion = setInterval(notificarCopiadoOculto, 2000);
+            }
+        </script>
+    </main>
+   
+    <footer>
+        <section class="rodapie contenedor">
+            <h2 class="rodapie__titulo">Programa ONE – Oracle Next Education - Argentina GRUPO 5</h2>
+            
+            <picture class="picture">
+                <ul class="rodapie__lista">
+                    <li class="rodapie__elemento">
+                        <img src="./img/figma.svg" alt="Logo FIGMA" class="rodapie__img">
+                    </li>
+                    <li class="rodapie__elemento">
+                        <img src="./img/visualstudiocode.svg" alt="Logo Visual Studio Code" class="rodapie__img">
+                    </li>
+                    <li class="rodapie__elemento">
+                        <img src="./img/html.svg" alt="Logo HTML5" class="rodapie__img">
+                    </li>
+                    <li class="rodapie__elemento">
+                        <img src="./img/css.svg" alt="Logo CSS3" class="rodapie__img">
+                    </li>
+                    <li class="rodapie__elemento">
+                        <img src="./img/javascript.svg" alt="Logo Java Script" class="rodapie__img">
+                    </li>
+                </ul>
+            </picture>
+            
+            <h6 class="rodapie__copyright">&copy Copyright Maria del mar Serra - Mayo 2023</h6>
+        </section>
+    </footer>
+</body>
+</html>
