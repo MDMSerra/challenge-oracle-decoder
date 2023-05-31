@@ -125,39 +125,20 @@
                 }
             } 
             
-            //notificacion de copiado con setTimeout()
-            // function notificarCopiadoVisible(){
-            //     document.getElementById("notificacion__copiado").style.display = "block";
-            // } 
-            // function notificarCopiadoOculto(){
-            //     document.getElementById("notificacion__copiado").style.display = "none";
-            // }         
-            // function copiarAlPortapapeles() {
-            // var contenido = document.getElementById('salida__texto');
-            // contenido.select();
-            // document.execCommand('copy');
-            // notificarCopiadoVisible();
-            // setTimeout(notificarCopiadoOculto, 2000);
-            // }
-
-
-            //notificacion de copiado con setInterval()
-            var intervaloNotificacion;
-            function notificarCopiadoVisible() {
+            function notificarCopiadoVisible(){
                 document.getElementById("notificacion__copiado").style.display = "block";
-            }
+            } 
 
-            function notificarCopiadoOculto() {
+            function notificarCopiadoOculto(){
                 document.getElementById("notificacion__copiado").style.display = "none";
-                clearInterval(intervaloNotificacion);
-            }
+            }  
 
             function copiarAlPortapapeles() {
                 var contenido = document.getElementById('salida__texto');
                 contenido.select();
                 document.execCommand('copy');
                 notificarCopiadoVisible();
-                intervaloNotificacion = setInterval(notificarCopiadoOculto, 2000);
+                setTimeout(notificarCopiadoOculto, 1500);
             }
         </script>
     </main>
