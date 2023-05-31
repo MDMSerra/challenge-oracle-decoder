@@ -194,18 +194,9 @@ footer{
 }
 
 
+
 /* DISEÑO RESPONSIVE */
 @media (max-width: 975px){
-    .principal__imagen{
-        top: 180px;
-    }
-    .principal__noencontrado{
-        bottom: 240px;
-    }
-    .principal__instruccion{
-        bottom: 135px;
-        left: 0;
-    }
     .principal__botones{
         gap: 3em;
     }
@@ -218,68 +209,60 @@ footer{
     }
     .principal__entrada{
         width: 100%;
+        height: 60%;
     }
     .principal__texto--ingresado{
-        font-size: 1.5rem;
-        height: 75%;  
+        height: 76%;
+        padding-top: 2%;
+        font-size: 1.3rem;
+    }
+    .principal__advertencia{
+        height: 4%;
+    }
+    .principal__boton{ 
+        width: 100%;
     }
     .principal__botones{
         width: 100%;
+        height: 20%;
+        display: flex;
+        gap: 1em;
         justify-content: space-between;
-    }
-    .principal__boton{
-        width: 54%;
     }
     .principal__salida{
         width: 100%;
-        height: 60%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        position: relative;
+        height: 40%;
+        max-width: none;
+        margin-top: 0;
     }
     .principal__salida__imagen{
-        width: 95%;
-        height: 90%;
+        width: 90%;
+        height: 95%;
     }
     .principal__imagen{
-        display:none;
+        display: none;
     }
     .principal__noencontrado{
-        position: relative;
-        top: 0;
-        left: 0;
-        display: block;
-        padding-top: 20%;
-    }
-    .principal__instruccion{
-        position: relative;
-        top: 0;
-        display: block;
-        font-size: 1.1em;
-        padding-top: 1.3em auto;
+        margin-top: 115px;
     }
     .principal__salida__texto{
         width: 95%;
     }
     .principal__texto--salida{
-        width: 95%;
-        height: 70%;
-    }
-    .principal__boton--copiar{
-        width: 90%;
-        left: 5%;
+        height: 72%;
+        padding-top: 3%;
+        font-size: 1em;
     }
     .principal__salida__notificacion{
-        position: absolute;
+        right: 0;
         bottom: 30%;
-        right: 5%;
-        width: 90%;
     }
+    .principal__boton--copiar{
+        height: 20%;
+    } 
     .rodapie__titulo{
-        font-size: 1.2em;
-    }
+        font-size: 1rem;
+    }   
 }
 
 
@@ -289,11 +272,11 @@ footer{
         padding-left: 2em;
         text-align: start;
     }
-    .principal__salida__notificacion{
-        font-size: 1.5rem;
+    .principal__botones{
+        gap: 1em;
     }
-    .rodapie__titulo{
-        font-size: 1rem;
+    .principal__noencontrado{
+        margin-top: 100px;
     }
     .rodapie__lista{
         gap: 1em;
@@ -304,37 +287,48 @@ footer{
 @media (max-width: 375px){
     .nav__titulo{
         font-size: 1.3rem;
-        padding-left: 2em;
-        text-align: start;
+    }
+    .principal{
+        height: 900px;
+    }
+    .principal__entrada{
+        height: 65%;
     }
     .principal__texto--ingresado{
-        position: relative;
-        top: 0;
-        left: 0;
-        font-size: 1.4rem;
-        width: 100%; 
+        font-size: 1rem;
         height: 70%;
+        padding-top: 3%;
     }
     .principal__advertencia{
-        position: relative;
-        top: 0;
-
+        height: 4%;
     }
     .principal__botones{
-        position: relative;
-        top: 10px;
-        left: 0;
-        width: 100%;
-        gap: .7em;
+        height: 30%;
         flex-direction: column;
+        gap: .6em;
+        justify-content: start;
     }
-    .principal__boton--encriptar{
-        width: 100%;   
+    .principal__salida{
+        height: 35%;
+        margin-top: 2%;
     }
-    .principal__boton--desencriptar{
-        width: 100%;
+    .principal__noencontrado{
+        margin-top: 80px;
     }
+    .principal__salida__texto{
+        width: 90%;
+    }
+    .principal__texto--salida{
+        height: 73%;
+        padding-top: 5%;
+    }
+    .principal__salida__notificacion{
+        padding: .5em 0;
+    }
+    .principal__boton--copiar{
+        height: 20%;
+    } 
     .rodapie__img{
-        width: 40px;
+        width: 30px;
     }
-}
+} 
