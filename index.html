@@ -137,6 +137,7 @@
                 var contenido = document.getElementById('salida__texto');
                 contenido.select();
                 document.execCommand('copy');
+                document.getElementById("entrada__texto").value = "";
                 notificarCopiadoVisible();
                 setTimeout(notificarCopiadoOculto, 1500);
             }
