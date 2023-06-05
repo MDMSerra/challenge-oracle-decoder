@@ -67,9 +67,9 @@ lo puedes ver en el siguiente link! ->  https://mdmserra.github.io/challenge-ora
 
 ![desktop4](https://github.com/MDMSerra/challenge-oracle-decoder/assets/122322927/a9301684-1258-44f1-9da6-87a1599d6801)
 
-![responsiveMid1](https://github.com/MDMSerra/challenge-oracle-decoder/assets/122322927/5350ae74-e152-4cf9-96b7-6582c50fbe66)
+<div align="center"><img src="https://github.com/MDMSerra/challenge-oracle-decoder/assets/122322927/5350ae74-e152-4cf9-96b7-6582c50fbe66" /></div>
 
-![responsiveMid2](https://github.com/MDMSerra/challenge-oracle-decoder/assets/122322927/1eb803e9-6f7b-4a61-ac1c-86ff4f1a5171)
+<div align="center"><img src="https://github.com/MDMSerra/challenge-oracle-decoder/assets/122322927/1eb803e9-6f7b-4a61-ac1c-86ff4f1a5171" /></div>
 
 <div align="center"><img src="https://github.com/MDMSerra/challenge-oracle-decoder/assets/122322927/f85eb256-8b1a-4c9a-ac26-db571af4e209" /></div>
 
