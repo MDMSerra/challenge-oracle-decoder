@@ -5,7 +5,7 @@
 <br>
 
 <p align="center" >
-     ![Logo Alura](https://raw.githubusercontent.com/joshuaFrias95/Encriptador-Alura-Oracle-ONE/main/img/readme/aluraoracle.png)
+   ![Logo Alura](https://raw.githubusercontent.com/joshuaFrias95/Encriptador-Alura-Oracle-ONE/main/img/readme/aluraoracle.png)
 </p>
 
 
