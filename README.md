@@ -4,14 +4,13 @@
 
 <br>
 
-<div align="center">
-   <img src="[https://raw.githubusercontent.com/patrickwebsdev/Encriptador-Oracle-Alura/master/img/one.png](https://raw.githubusercontent.com/joshuaFrias95/Encriptador-Alura-Oracle-ONE/main/img/readme/aluraoracle.png)" width="200"/>
-</div>
-
+<p>
+<div align="center"><img src="[https://raw.githubusercontent.com/patrickwebsdev/Encriptador-Oracle-Alura/master/img/one.png](https://raw.githubusercontent.com/joshuaFrias95/Encriptador-Alura-Oracle-ONE/main/img/readme/aluraoracle.png)" width="200"/></div>
+<p align="center" >
 
 <p>
     # Challenge ONE | Lógica de Programación | Encriptador de texto
-</p>
+<p align="center" >
 
 # 📊 Formato de encriptador propuesto
 <p align="center" >
