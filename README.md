@@ -42,8 +42,16 @@ Una vez ingresado el texto, el usuario puede seleccionar la opción correspondie
 ---
 
 # 🚀 Encriptador Final en modelos Desktop y Responsive 
-<p align="center" >
-     <img width="500" heigth="300" src="![desktop1](https://github.com/MDMSerra/challenge-oracle-decoder/assets/122322927/4ab76115-0d22-41bc-b9a8-c67b7a767b84)">
-     
+![desktop1](https://github.com/MDMSerra/challenge-oracle-decoder/assets/122322927/4ab76115-0d22-41bc-b9a8-c67b7a767b84)
 
-</p>
+![desktop2](https://github.com/MDMSerra/challenge-oracle-decoder/assets/122322927/2d56bd1a-bde1-4e04-8169-b1015fd901b6)
+
+![desktop3](https://github.com/MDMSerra/challenge-oracle-decoder/assets/122322927/9a3bf440-e5e5-4840-8cda-082488138d37)
+
+![responsiveMid1](https://github.com/MDMSerra/challenge-oracle-decoder/assets/122322927/5350ae74-e152-4cf9-96b7-6582c50fbe66)
+
+![responsiveMid2](https://github.com/MDMSerra/challenge-oracle-decoder/assets/122322927/1eb803e9-6f7b-4a61-ac1c-86ff4f1a5171)
+
+![responsiveSmall](https://github.com/MDMSerra/challenge-oracle-decoder/assets/122322927/71be506c-fc0f-48fa-b99a-b49dea7715a6)
+
+
