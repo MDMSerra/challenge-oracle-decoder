@@ -1,9 +1,7 @@
-<p>
-<div align="center"><img src="https://raw.githubusercontent.com/joshuaFrias95/Encriptador-Alura-Oracle-ONE/main/img/readme/aluraoracle.png" width="600"/></div>
+# Challenge ONE | Lógica de Programación | Encriptador de texto
 <p align="center" >
-
-<p># Challenge ONE | Lógica de Programación | Encriptador de texto
-</p align="center">
+<div align="center"><img src="https://raw.githubusercontent.com/joshuaFrias95/Encriptador-Alura-Oracle-ONE/main/img/readme/aluraoracle.png" width="600"/></div>
+</p>
 
 # 📊 Formato de encriptador propuesto
 <p align="center" >
