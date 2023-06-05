@@ -4,9 +4,9 @@
 
 <br>
 
-<p align="center" >
-   ![Logo Alura](https://raw.githubusercontent.com/joshuaFrias95/Encriptador-Alura-Oracle-ONE/main/img/readme/aluraoracle.png)
-</p>
+<div align="center">
+   <img src="[https://raw.githubusercontent.com/patrickwebsdev/Encriptador-Oracle-Alura/master/img/one.png](https://raw.githubusercontent.com/joshuaFrias95/Encriptador-Alura-Oracle-ONE/main/img/readme/aluraoracle.png)" width="200"/>
+</div>
 
 
 <p>
@@ -69,7 +69,8 @@ lo puedes ver en el siguiente link! ->  https://mdmserra.github.io/challenge-ora
 
 ![ResponsiveSmall](https://github.com/MDMSerra/challenge-oracle-decoder/assets/122322927/f85eb256-8b1a-4c9a-ac26-db571af4e209)
 
-     
+
+  
 </p>
 <div align="center"><img src="https://raw.githubusercontent.com/patrickwebsdev/Encriptador-Oracle-Alura/master/img/one.png" width="200"/></div>
 <p align="center" >
