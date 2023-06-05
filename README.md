@@ -4,15 +4,12 @@
 
 <br>
 
-Challenge #1 del programa del el programa [Oracle Next Education](https://www.oracle.com/mx/education/oracle-next-education/) en conjunto con [Alura Latam](https://www.aluracursos.com/) realizado con herramientas Front-end y diseño responsivo.
-
-
-![Logo Alura](https://raw.githubusercontent.com/joshuaFrias95/Encriptador-Alura-Oracle-ONE/main/img/readme/aluraoracle.png)
-
-
-
-<div align="center"><img src="https://raw.githubusercontent.com/patrickwebsdev/Encriptador-Oracle-Alura/master/img/one.png" width="200"/></div>
 <p align="center" >
+     ![Logo Alura](https://raw.githubusercontent.com/joshuaFrias95/Encriptador-Alura-Oracle-ONE/main/img/readme/aluraoracle.png)
+</p>
+
+
+<p>
     # Challenge ONE | Lógica de Programación | Encriptador de texto
 </p>
 
@@ -72,3 +69,7 @@ lo puedes ver en el siguiente link! ->  https://mdmserra.github.io/challenge-ora
 
 ![ResponsiveSmall](https://github.com/MDMSerra/challenge-oracle-decoder/assets/122322927/f85eb256-8b1a-4c9a-ac26-db571af4e209)
 
+     
+</p>
+<div align="center"><img src="https://raw.githubusercontent.com/patrickwebsdev/Encriptador-Oracle-Alura/master/img/one.png" width="200"/></div>
+<p align="center" >
