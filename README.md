@@ -1,5 +1,8 @@
 <div align="center"><img src="https://raw.githubusercontent.com/patrickwebsdev/Encriptador-Oracle-Alura/master/img/one.png" width="200"/></div>
-# Challenge ONE | Lógica de Programación | Encriptador de texto
+<p align="center" >
+    # Challenge ONE | Lógica de Programación | Encriptador de texto
+</p>
+
 # GRUPO: 5 CHALLENGE: Encriptador de Texto
 
 # 📊 Formato de encriptador propuesto
