@@ -5,7 +5,7 @@
 <br>
 
 <p>
-<div align="center"><img src="[https://raw.githubusercontent.com/patrickwebsdev/Encriptador-Oracle-Alura/master/img/one.png](https://raw.githubusercontent.com/joshuaFrias95/Encriptador-Alura-Oracle-ONE/main/img/readme/aluraoracle.png)" width="200"/></div>
+<div align="center"><img src="(https://raw.githubusercontent.com/joshuaFrias95/Encriptador-Alura-Oracle-ONE/main/img/readme/aluraoracle.png)" width="200"/></div>
 <p align="center" >
 
 <p>
