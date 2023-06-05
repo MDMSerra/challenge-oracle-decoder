@@ -1,3 +1,16 @@
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+<br>
+
+Challenge #1 del programa del el programa [Oracle Next Education](https://www.oracle.com/mx/education/oracle-next-education/) en conjunto con [Alura Latam](https://www.aluracursos.com/) realizado con herramientas Front-end y diseño responsivo.
+
+
+![Logo Alura](https://raw.githubusercontent.com/joshuaFrias95/Encriptador-Alura-Oracle-ONE/main/img/readme/aluraoracle.png)
+
+
+
 <div align="center"><img src="https://raw.githubusercontent.com/patrickwebsdev/Encriptador-Oracle-Alura/master/img/one.png" width="200"/></div>
 <p align="center" >
     # Challenge ONE | Lógica de Programación | Encriptador de texto
