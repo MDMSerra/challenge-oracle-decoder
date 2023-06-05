@@ -1,9 +1,3 @@
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-
-<br>
-
 <p>
 <div align="center"><img src="https://raw.githubusercontent.com/joshuaFrias95/Encriptador-Alura-Oracle-ONE/main/img/readme/aluraoracle.png" width="600"/></div>
 <p align="center" >
@@ -51,6 +45,14 @@ Una vez ingresado el texto, el usuario puede seleccionar la opción correspondie
 
 ---
 
+# 🔧 Herramientas Utilizadas
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+---
+
 # 🚀 Encriptador Final en modelos Desktop y Responsive 
 lo puedes ver en el siguiente link! ->  https://mdmserra.github.io/challenge-oracle-decoder/
 
@@ -69,7 +71,7 @@ lo puedes ver en el siguiente link! ->  https://mdmserra.github.io/challenge-ora
 ![ResponsiveSmall](https://github.com/MDMSerra/challenge-oracle-decoder/assets/122322927/f85eb256-8b1a-4c9a-ac26-db571af4e209)
 
 
-  
+
 </p>
 <div align="center"><img src="https://raw.githubusercontent.com/patrickwebsdev/Encriptador-Oracle-Alura/master/img/one.png" width="200"/></div>
 <p align="center" >
