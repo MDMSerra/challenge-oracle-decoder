@@ -75,11 +75,8 @@ lo puedes ver en el siguiente link! ->  https://mdmserra.github.io/challenge-ora
 
 ---
 
-<div align="center">
-     #  🎉🏆 Insignia del Challenge Completado 🏅🎊
-</div>
-
 <div align="center"><img src="https://github.com/MDMSerra/challenge-oracle-decoder/assets/122322927/c11cd39c-dd42-41af-8c59-73d662a26d65" width="500"/></div>
+<div align="center">🎉🏆 Insignia del Challenge Completado 🏅🎊</div>
 
 ---
 
