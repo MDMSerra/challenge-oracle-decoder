@@ -50,69 +50,41 @@
 
         <script>
             var textoIngresado;
+            const diccionario = { 
+                    e: 'enter',
+                    i: 'imes',
+                    a: 'ai',
+                    o: 'ober',
+                    u: 'ufat'
+                }
+            
+            const elementoDiccionario = Object.keys(diccionario);
+
             function encriptarTexto() {
+
                 textoIngresado = document.getElementById("entrada__texto").value;
                 mostrarContenedor(textoIngresado);
-                let i;
-                let letra;
-                let nuevotexto = "";
-                for (i=0; i< textoIngresado.length ;i++){
-                    letra = textoIngresado.substring(i,i+1);
-                    switch(letra){
-                        case "a":
-                            letra = "ai";
-                            break;
-                        case "e":
-                            letra = "enter";
-                            break;
-                        case "i":
-                            letra = "imes";
-                            break;
-                        case "o":
-                            letra = "ober";
-                            break;
-                        case "u":
-                            letra = "ufat";
-                            break;
-                    }
-                    nuevotexto = nuevotexto + letra; 
+                
+                for(let i = 0 ; i < elementoDiccionario.length; i++){
+                    textoIngresado = textoIngresado.replaceAll(elementoDiccionario[i],diccionario[elementoDiccionario[i]]);
                 }
-                document.getElementById("salida__texto").value = nuevotexto;
+
+                //let textoEnArray = textoIngresado.split("");
+                //textoEnArray = textoEnArray.map((letra) => diccionario[letra] ? diccionario[letra]: letra);
+                //textoIngresado = textoEnArray.join("");
+
+                document.getElementById("salida__texto").value = textoIngresado;
             }
 
             function desencriptarTexto(){
                 textoIngresado = document.getElementById("entrada__texto").value;
                 mostrarContenedor(textoIngresado);
-                let i;
-                let letra;
-                let nuevotexto = "";
-                for (i=0; i< textoIngresado.length ;i++){
-                    letra = textoIngresado.substring(i,i+1);
-                    switch(letra){
-                        case "a":
-                            letra = "a";
-                            i = i + 1;
-                            break;
-                        case "e":
-                            letra = "e";
-                            i = i + 4;
-                            break;
-                        case "i":
-                            letra = "i";
-                            i = i + 3;
-                            break;
-                        case "o":
-                            letra = "o";
-                            i = i + 3;
-                            break;
-                        case "u":
-                            letra = "u";
-                            i = i + 3;
-                            break;
-                    }
-                    nuevotexto = nuevotexto + letra; 
+
+                for(let i = 0 ; i < elementoDiccionario.length; i++){
+                    textoIngresado = textoIngresado.replaceAll(diccionario[elementoDiccionario[i]],elementoDiccionario[i]);
                 }
-                document.getElementById("salida__texto").value = nuevotexto;
+            
+                document.getElementById("salida__texto").value = textoIngresado;
             }
 
             function mostrarContenedor(texto){
