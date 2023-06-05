@@ -3,11 +3,14 @@
 <div align="center"><img src="https://raw.githubusercontent.com/joshuaFrias95/Encriptador-Alura-Oracle-ONE/main/img/readme/aluraoracle.png" width="600"/></div>
 </p>
 
+---
+
 # 📊 Formato de encriptador propuesto
 <p align="center" >
      <img width="800" src="https://user-images.githubusercontent.com/91544872/157673573-5e781ce9-601c-4ea3-9db1-b60bebf717aa.png">
 </p>
 
+---
 
 # 📝 Descripción
 
@@ -19,6 +22,7 @@ Una vez ingresado el texto, el usuario puede seleccionar la opción correspondie
 
 ¡Con este encriptador, tus mensajes estarán protegidos y listos para ser compartidos de manera segura! 😎🔒
 
+---
 
 ## 📒 Reglamento de encriptacion
 | 🔑 Llave | ✏️ Reemplazo |
@@ -69,7 +73,7 @@ lo puedes ver en el siguiente link! ->  https://mdmserra.github.io/challenge-ora
 
 ![ResponsiveSmall](https://github.com/MDMSerra/challenge-oracle-decoder/assets/122322927/f85eb256-8b1a-4c9a-ac26-db571af4e209)
 
-
+---
 
 <p align="center">
 <div align="center"><img src="https://raw.githubusercontent.com/patrickwebsdev/Encriptador-Oracle-Alura/master/img/one.png" width="200"/></div>
