@@ -75,11 +75,13 @@ lo puedes ver en el siguiente link! ->  https://mdmserra.github.io/challenge-ora
 
 ---
 
-# Insignia del Challenge Completado
+#  🎉🏆 Insignia del Challenge Completado 🏅🎊
 
 <p align="center">
-![insigniaCompletado](https://d335luupugsy2.cloudfront.net/cms%2Ffiles%2F10224%2F1671210503Prancheta_3.png?utm_campaign=alura_latam_-_challenge_email_projeto_1_esp&utm_medium=email&utm_source=RD+Station)
+![cms_files_10224_1671210503Prancheta_3 (1)](https://github.com/MDMSerra/challenge-oracle-decoder/assets/122322927/c11cd39c-dd42-41af-8c59-73d662a26d65)
 </p>
+
+---
 
 <p align="center">
 <div align="center"><img src="https://raw.githubusercontent.com/patrickwebsdev/Encriptador-Oracle-Alura/master/img/one.png" width="200"/></div>
